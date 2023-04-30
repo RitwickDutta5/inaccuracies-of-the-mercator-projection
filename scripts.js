@@ -349,8 +349,8 @@ document.getElementById('fit-chile').addEventListener('click', () => {
 
 document.getElementById('fit-europe').addEventListener('click', () => {
     map.fitBounds([
-        [-34.08467, 39.18466], // southwestern corner of the bounds
-        [45.99415, 67.19218] // northeastern corner of the bounds
+        [-37.61359, 32.75399], // southwestern corner of the bounds
+        [66.13890, 73.63341] // northeastern corner of the bounds
     ]);
 });
 
