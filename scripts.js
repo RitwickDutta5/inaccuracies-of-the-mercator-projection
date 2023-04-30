@@ -1,3 +1,4 @@
+// use mapbox mercator projection along with access token
 mapboxgl.accessToken = 'pk.eyJ1IjoiY3dob25nIiwiYSI6IjAyYzIwYTJjYTVhMzUxZTVkMzdmYTQ2YzBmMTM0ZDAyIn0.owNd_Qa7Sw2neNJbK6zc1A';
 const map = new mapboxgl.Map({
     container: 'map',
@@ -6,9 +7,9 @@ const map = new mapboxgl.Map({
     zoom: 1,
     projection: 'mercator' // starting projection
 });
-
+// add navigation control
 map.addControl(new mapboxgl.NavigationControl());
-
+// add LineStrings using coordinates from GeoJson and paint properties to differentiate the lines
 map.on('load', () => {
     map.addSource('route', {
         'type': 'geojson',
@@ -321,6 +322,7 @@ map.on('load', () => {
     });
 
 });
+// fit to bounds made using bounding box from location helper tool
 document.getElementById('fit-africa').addEventListener('click', () => {
     map.fitBounds([
         [-29.04838, -36.71636], // southwestern corner of the bounds
