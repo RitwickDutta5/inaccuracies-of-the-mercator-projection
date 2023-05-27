@@ -20,7 +20,7 @@
 
  To undertake this project, I used the flatmap mercator projection rather than using the globe projection to make the distances easier to compare. 
  
-I split my code and annoted it to make it easier to follow and replicable. 
+I split my code and annotated it to make it easier to follow and replicable. 
 
 I added an accordion feature to make it more interactive and create a call to action for the user to explore this further. 
 
