@@ -24,7 +24,7 @@ I split my code and annotated it to make it easier to follow and replicable.
 
 I added an accordion feature to make it more interactive and create a call to action for the user to explore this further. 
 
- I color coded the lines with the buttons to create similarites and used the buttons to try and tell a story. 
+ I color coded the lines with the buttons to create similarities and used the buttons to try and tell a story. 
 
  My final project is linked here:
  https://ritwickdutta5.github.io/inaccuracies-of-the-mercator-projection/
